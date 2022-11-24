@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    height: 50vh;
+    width: 50vh;
+    background-image: url(https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?cs=srgb&dl=pexels-pixabay-40751.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #111010;
+}
+
+div{
+   width: 500px;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   background-color: rgba(0, 0, 0, 0);
+   transform: translate (-50%, -50%);
+   padding: 5px;
+   box-shadow: 2px 2px 20px #5b3903;
+}
+
+h2{
+   font-size: 30px; 
+   font-weight: 600;
+    color: rgb(0, 0, 0);
+    
+ }
+    
+.text{
+    text-align: left;
+    margin-left: 100px;
+    
+    }
+    
+ #weight, #height{
+        color: rgb(0, 0, 0);
+        text-align: left;
+        font-size: 20px;
+        font-weight: 200;
+        border: 1px solid rgb(0, 0, 0);
+        width: 300px;
+        background-color: transparent;
+        border-radius: 2px;
+        outline: none;
+        
+        }
+        
+   #result{
+        color: rgb(0, 0, 0);
+         }
+        
+    #btn{
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 10px;
+        border: none;
+        color: rgb(0, 0, 0);
+        background: transparent;
+        width: 150px;
+        padding: 10px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+#btn:hover{
+        box-shadow: 1px 1px 10px #674605 ;
+        }
+
+#info{
+    color: rgb(16, 13, 13);
+}        
